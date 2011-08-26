@@ -23,4 +23,11 @@ describe PagesController do
     end
   end
 
+  describe "GET 'helpus'" do
+    it "should be successful" do
+      get 'helpus'
+      response.should be_success
+    end
+  end
+
 end

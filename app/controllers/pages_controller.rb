@@ -6,7 +6,11 @@ class PagesController < ApplicationController
   end
 
   def about
-    @title = "about page"
+    @title = "ABOUT"
+  end
+  
+  def helpus
+    @title = "HELPUS"
   end
 
 end
