@@ -1,10 +1,13 @@
 SampleApp::Application.routes.draw do
+  resources :users
+
   get "pages/about"
 
   get "pages/home"
 
   get "pages/contact"
 
+  get "pages/helpus"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
